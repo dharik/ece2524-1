@@ -19,5 +19,6 @@ clean:
 	-rm *.o *.d *~
 
 archive:
-	tar -cvf theprogram.tar ${SRC}
+	tar -cvfz theprogram.tar.gz *.cpp *.h Makefile README
+
 
